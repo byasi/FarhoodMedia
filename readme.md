@@ -1,7 +1,7 @@
 ------------------------------------------------------
-Template Name: Poca - Podcast & Audio Template
-Template Author: Colorlib
-Template Author URI: https://colorlib.com
+Template Name: FarhoodMedia
+Template Author: Byasi Solomon
+Template Author URI:
 Version: 1.0.0
 Last Update: Dec 15, 2018
 -----------------------------------------------------
