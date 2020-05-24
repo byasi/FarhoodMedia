@@ -1,3 +1,4 @@
 {
-    "git.autofetch": true
+    "git.autofetch": true,
+    "liveServer.settings.port": 5501
 }

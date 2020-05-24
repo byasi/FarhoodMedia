@@ -281,16 +281,16 @@
                 <form action="#" method="post">
                   <div class="row">
                     <div class="col-lg-6">
-                      <input type="text" name="message-name" class="form-control mb-30" placeholder="Name">
+                      <input type="text" name="message-name" id="commentName" class="form-control mb-30" placeholder="Name">
                     </div>
                     <div class="col-lg-6">
-                      <input type="email" name="message-email" class="form-control mb-30" placeholder="Email">
+                      <input type="email" name="message-email" id="commentEmail" class="form-control mb-30" placeholder="Email">
                     </div>
                     <div class="col-12">
-                      <textarea name="message" class="form-control mb-30" placeholder="Comment"></textarea>
+                      <textarea name="message" class="form-control mb-30" id="commentMessage" placeholder="Comment"></textarea>
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="btn poca-btn mt-30">Post Comment</button>
+                      <button type="submit" onclick="addCommentOnSports()" class="btn poca-btn mt-30">Post Comment</button>
                     </div>
                   </div>
                 </form>
@@ -421,7 +421,7 @@
           <div class="newsletter-form mb-50">
             <form action="#" method="post">
               <input type="email" name="nl-email" class="form-control" placeholder="Your Email">
-              <button type="submit" class="btn">Subscribe</button>
+              <button type="submit" id="newsletter" onclick="newsletterData()" class="btn">Subscribe</button>
             </form>
           </div>
         </div>
@@ -526,6 +526,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="js/poca.bundle.js"></script>
   <!-- Active js -->
   <script src="js/default-assets/active.js"></script>
+
+  <script src="js/index.js"></script>
 
 </body>
 
